@@ -1,0 +1,87 @@
+header{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5.8vw;
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.main-header-logo-button{
+    margin: 19px 0px 18px 0px;
+    padding: 0 0 0 0;
+    background-color: #fff;
+    border: 0px;
+}
+
+.main-header-text-main-button{
+    padding: 36px 1.9vw 36px 1.9vw;
+    margin: 1px 0px 0px 2.9vw;
+    color: #538CAC;
+    background-color: #fff;
+    border: 0px solid #538CAC;
+    font-family: Comfortaa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main-header-text-main-button:hover {
+    border-bottom: 2px solid #538CAC;
+    transition: .1s;
+}
+
+.main-header-text-shop-button{
+    padding: 36px 1.9vw 36px 1.9vw;
+    margin: 1px 0px 0px 46px;
+    color: #538CAC;
+    border: 0px solid ;
+    font-family: Comfortaa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #fff;
+}
+
+.main-header-text-shop-button:hover {
+    border-bottom: 2px solid #538CAC;
+    transition: .1s;
+}
+
+/*HEADER
+----------------------------------------*/
+
+/*FOOTER------------------------------*/
+footer{
+    padding-left: 4.2vw;
+    border-top: 1px solid #E4E4E4;
+    display: flex;
+}
+
+.footer-rules{
+    padding: 41px 64.6vw 41px 4.2vw;
+    color: #538CAC;
+    font-family: Comfortaa;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-icons{
+    display: flex;
+    padding: 22px 6.5vw 22px 0px;
+}
+
+.footer-icons-vklogo{
+    margin-right: 2.9vw;
+}
+
+.footer-icons-fblogo{
+    margin-right: 2.9vw;
+}
+
+@media (max-width:1450px) {
+    .footer-rules{
+        padding: 41px 24.6vw 41px 4.2vw;
+    }
+}

@@ -1,0 +1,224 @@
+header{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5.8vw;
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.main-header-logo-button{
+    margin: 19px 0px 18px 0px;
+    padding: 0 0 0 0;
+    background-color: #fff;
+    border: 0px;
+}
+
+.main-header-text-main-button{
+    padding: 36px 1.9vw 36px 1.9vw;
+    margin: 1px 0px 0px 2.9vw;
+    color: #538CAC;
+    background-color: #fff;
+    border: 0px solid #538CAC;
+    font-family: Comfortaa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main-header-text-main-button:hover {
+    border-bottom: 2px solid #538CAC;
+    transition: .1s;
+}
+
+.main-header-text-shop-button{
+    padding: 36px 1.9vw 36px 1.9vw;
+    margin: 1px 0px 0px 46px;
+    color: #538CAC;
+    border: 0px solid ;
+    font-family: Comfortaa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #fff;
+}
+
+.main-header-text-shop-button:hover {
+    border-bottom: 2px solid #538CAC;
+    transition: .1s;
+}
+
+/*HEADER
+----------------------------------------*/
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-photo{
+    padding: 148px 11.9vw 396px 0px;
+}
+
+.main-main-about_us{
+    display: flex;
+    flex-direction: row;
+    padding: 114px 0px 27px 14vw;
+    color: #538CAC;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Comfortaa;
+}
+
+.main-main-about_us-text{
+    display: block;
+    width: 33.9vw;
+    padding: 0px 7.4vw 80px 14vw;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: Comfortaa;
+    line-height: 25px;
+}
+
+.main-main-production{
+    padding: 0px 7.4vw 27px 14vw;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Comfortaa;
+    line-height: 25px;
+    color: #538CAC
+}
+
+.main-main-production-text{
+    display: block;
+    width: 33.9vw;
+    padding: 0px 7.4vw 27px 14vw;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: Comfortaa;
+    line-height: 25px;
+}
+
+.main-buttons{
+    display: flex;
+    padding: 0px 0px 201px 14vw;
+}
+
+.main-buttons-loots{
+    padding: 20px 5vw 20px 5vw;
+    margin-right: 4.2vw;
+    color: #fff;
+    font-family: Comfortaa;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 18px;
+    background: linear-gradient(to left, #86A8E7, #91EAE4, #86A8E7);
+    border: 0px;
+    transition: .5s;
+    background-size: 200%;
+}
+.main-buttons-loots:hover{
+    background-position: right;
+}
+
+.main-buttons-connection{
+    padding: 20px 2.6vw 20px 2.6vw;
+    margin-right: 4.2vw;
+    color: #fff;
+    font-family: Comfortaa;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 18px;
+    background: linear-gradient(to left, #86A8E7, #91EAE4, #86A8E7);
+    border: 0px;
+    transition: .5s;
+    background-size: 200%;
+}
+.main-buttons-connection:hover{
+    background-position: right;
+}
+
+/*FOOTER------------------------------*/
+
+footer{
+    padding-left: 4.2vw;
+    border-top: 1px solid #E4E4E4;
+    display: flex;
+}
+
+.footer-rules{
+    padding: 41px 64.6vw 41px 4.2vw;
+    color: #538CAC;
+    font-family: Comfortaa;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-icons{
+    display: flex;
+    padding: 22px 6.5vw 22px 0px;
+}
+
+.footer-icons-vklogo{
+    margin-right: 2.9vw;
+}
+
+.footer-icons-fblogo{
+    margin-right: 2.9vw;
+}
+
+@media (max-width:1450px){
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-photo{
+        padding-left: 14vw;
+        height: 550px;
+        width: 360px
+    }
+
+    .main-buttons{
+        padding-bottom: 30px;
+    }
+
+    .footer-rules{
+        padding: 41px 24.6vw 41px 4.2vw;
+    }
+
+    .main-main-production-text{
+        width: 700px;
+    }
+
+    .main-main-about_us-text{
+        width: 700px;
+    }
+
+    .main-photo{
+        padding-bottom: 100px;
+    }
+}
+
+
+@media (max-width:1100px){
+    .main-main-production-text{
+        width: 500px;
+    }
+
+    .main-main-about_us-text{
+        width: 500px;
+    }
+
+}
+
+@media (max-width:620px){
+    .main-main-production-text{
+        width: 300px;
+    }
+
+    .main-main-about_us-text{
+        width: 300px;
+    }
+}
